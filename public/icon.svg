@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#eab308" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.4" />
+
+  <!-- Outer Casino Chip Ring -->
+  <g filter="url(#shadow)">
+    <circle cx="256" cy="256" r="170" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="14" />
+    <!-- Dashed Chip Insets -->
+    <circle cx="256" cy="256" r="145" fill="none" stroke="#fef08a" stroke-width="4" stroke-dasharray="18, 14" opacity="0.8" />
+    <!-- Center Core -->
+    <circle cx="256" cy="256" r="115" fill="url(#emeraldGrad)" opacity="0.25" />
+    <circle cx="256" cy="256" r="95" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="4" />
+  </g>
+
+  <!-- Golden 777 & Casino Symbols in Center -->
+  <g fill="url(#goldGrad)" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900">
+    <text x="256" y="278" font-size="82" letter-spacing="-2">777</text>
+  </g>
+
+  <!-- Top Crown Accent -->
+  <path d="M220 185 L238 202 L256 175 L274 202 L292 185 L286 215 L226 215 Z" fill="url(#goldGrad)" />
+  <circle cx="220" cy="180" r="4" fill="#fef08a" />
+  <circle cx="256" cy="170" r="5" fill="#fef08a" />
+  <circle cx="292" cy="180" r="4" fill="#fef08a" />
+
+  <!-- Cricket & Card Suits Decors -->
+  <g fill="url(#goldGrad)" opacity="0.9">
+    <text x="256" y="325" font-size="20" font-family="system-ui" text-anchor="middle" letter-spacing="4" font-weight="700">SMALL CASINO</text>
+    <text x="256" y="348" font-size="14" font-family="system-ui" text-anchor="middle" fill="#38bdf8">CRICKET &amp; ARCADE</text>
+  </g>
+</svg>

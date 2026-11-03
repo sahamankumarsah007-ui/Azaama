@@ -1,0 +1,6 @@
+{
+  "name": "Small Casino",
+  "description": "Real online casino games including Slots, Blackjack, Poker, Roulette, Crash, and 50:50 games with multiplayer leaderboards, instant crypto deposits, and balance notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Amankumar000997ehxn",
+  "name": "Small Casino",
+  "short_name": "Small casino",
+  "description": "Skdnxnxn",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "ltr",
+  "theme_color": "hsl(288, 14%, 21%)",
+  "background_color": "#3683a7",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Cricket",
+      "url": "/?tab=cricket",
+      "description": "Bet on live cricket matches in India"
+    },
+    {
+      "name": "Casino Games",
+      "url": "/?tab=games",
+      "description": "Play Slots, Blackjack & Poker"
+    },
+    {
+      "name": "Cashier",
+      "url": "/?action=wallet",
+      "description": "Instant deposits & withdrawals"
+    }
+  ]
+}
